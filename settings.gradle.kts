@@ -14,4 +14,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "AutomatedTestPractice"
-include(":app")
+include(":DiSample")
+include(":KoinSample")
+include(":HiltSample")
