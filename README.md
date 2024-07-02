@@ -8,7 +8,7 @@
 2. 解除依賴關係後，測試上如何進行呢?
     - 做"假物件"繼承物件實作後**代替真Weather傳入**，同時假物件要可控制，由假物件實作介面
 
-## Ｍanual Injection 的種類
+## Injection 的種類
 - Method injection  上述例子就屬此種類，方法注入
 - Constructor injection 建構子時注入，能確保物件在使用時一定都會初始化，也確保不會被修改
 - Property injection 比較少用，屬性公開提供直接修改
